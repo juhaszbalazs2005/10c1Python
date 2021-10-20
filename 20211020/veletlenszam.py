@@ -28,13 +28,39 @@ def feladat48():
         print(gen, end=" ")
     print()
 
-"""
-41. Generálj 10 véletlenszámot és írasd ki a képernyőre vesszővel elválasztva!
+#HÁZI FELADATOK
 
-42. Generálj 20 véletlenszámot 0 és 20 között, és írasd ki a képernyőre vesszővel elválasztva!
 
-43. Generálj 15 véletlenszámot 25 és 50 között, és írasd ki a képernyőre vesszővel 
-elválasztva! 
+def feladat41():
+    gen=randint(0,9999)
+    szamok=1
+    print(gen, end=", ")
+    while szamok<=10:
+        gen=randint(0,9999)
+        szamok=szamok+1
+        print(gen, end=", ")
 
-44. Generálj két egész véletlen számot 10 és 50 között, írasd ki a szorzatát! 
-"""
+def feladat42():
+    gen=randint(0,20)
+    szamok=1
+    print(gen, end=", ")
+    while szamok<=20:
+        gen=randint(0,20)
+        szamok=szamok+1
+        print(gen, end=", ")
+
+def feladat43():
+    gen=randint(25,50)
+    szamok=1
+    print(gen, end=", ")
+    while szamok<=15:
+        gen=randint(25,50)
+        szamok=szamok+1
+        print(gen, end=", ")
+
+def feladat44():
+    a=randint(10,50)
+    b=randint(10,50)
+    print("A számok szorzata: ",a*b)
+
+
